@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="set Alarm"
+        android:id="@+id/timePicker"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alaram 1"
+        android:textStyle="bold"
+        android:id="@+id/alaramOne"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alaram 2"
+        android:textStyle="bold"
+        android:id="@+id/alarmTwo"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alaram 3"
+        android:textStyle="bold"
+        android:id="@+id/alarmThree"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alaram 4"
+        android:textStyle="bold"
+        android:id="@+id/alarmFour"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alaram 5"
+        android:textStyle="bold"
+        android:id="@+id/alarmFive"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alaram 6"
+        android:textStyle="bold"
+        android:id="@+id/alarmSix"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+
+</LinearLayout>
